@@ -2,7 +2,7 @@ local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patskorn/
 local idk = GUI:new()
 local win = idk:Tap("Home")
 
-win:Label("Cr.Dear_Kung#4879, ! if else#1046 (Script Build a Boat Only)")
+win:Label("Cr.Dear_Kung#4879,! if else#1046,Hzdd#2453 (Script Build a Boat Only)")
 
 win:Toggle("Auto Farm", false, function(value)
     _G.AutoFarm = value
@@ -189,17 +189,21 @@ end)
 
 win:Label("Discord Zone")
 win:Button("Mukuro Hub", function(value)
+print("set clipboard Success!")
     setclipboard("https://discord.gg/mukuro")
 end)
 
 win:Button("Hzdd#2453", function(value)
+print("set clipboard Success!")
     setclipboard("Hzdd#2453")
 end)
 
 win:Button("Dear_Kung#4879", function(value)
+print("set clipboard Success!")
     setclipboard("Dear_Kung#4879")
 end)
 
 win:Button("! if else#1046", function(value)
+print("set clipboard Success!")
     setclipboard("! if else#1046")
 end)
